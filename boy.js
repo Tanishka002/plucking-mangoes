@@ -17,12 +17,14 @@ class Boy{
     }
   
    display(){
-    image(this.image,0,0);
+    image(this.image,0,500,250,250);
      if(this.boy.bodyA){
-        strokeWeight(4);
         var pointA = this.boy.bodyA.position;
         var pointB = this.pointB;
-        line(pointA.x, pointA.y, pointB.x, pointB.y);
+        stroke(48,22,8)
+        //strokeWeight(7);
+        line(pointA.x-20, pointA.y, pointB.x-10, pointB.y);
+        }
      }
     }
-}
+

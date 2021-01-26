@@ -14,7 +14,7 @@ class Tree {
         World.add(world, this.body);
       }
       display(){
-    image(this.image,0,0);
+    image(this.image,425,200,500,500);
     var pos =this.body.position;
     var angle = this.body.angle;
     push();
